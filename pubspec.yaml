@@ -1,0 +1,56 @@
+name: propgenie
+description: AI-powered Freelancer Proposal Generator
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  # Firebase
+  firebase_core: ^3.4.1
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.5.0
+
+  # Auth & Payments
+  google_sign_in: ^6.2.1
+  razorpay_flutter: ^1.3.5
+
+  # UI & Functionality
+  fluttertoast: ^8.2.10
+  provider: ^6.1.2
+  http: ^1.2.1
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  font_awesome_flutter: ^10.7.0
+  animations: ^2.0.11
+
+  # Navigation
+  go_router: ^13.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    #- assets/images/
+    #- assets/icons/
+    - assets/fonts/
+    - assets/logo.png
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
