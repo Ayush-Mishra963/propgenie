@@ -27,7 +27,7 @@ class PaymentService {
     required String contact,
   }) {
     var options = {
-      'key': 'rzp_test_uel7f5tRCudSvT', // 🔑 Replace with live key later
+      'key': 'Your razorpay payment key', // 🔑 Replace with live key later
       'amount': 6000, // ₹60 in paise
       'name': 'PropGenie',
       'description': '6-month premium access',
