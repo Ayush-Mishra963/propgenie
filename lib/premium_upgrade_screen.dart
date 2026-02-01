@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'payment_service.dart';
-import 'terms_screen.dart'; // Make sure this file exists
+import 'terms_screen.dart'; 
 
 class PremiumUpgradeScreen extends StatefulWidget {
   const PremiumUpgradeScreen({super.key});
