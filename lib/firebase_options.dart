@@ -41,26 +41,26 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBNtCgAxzltn5AqXCHWD1qBPxeYwPujCIM',
-    appId: '1:577859373866:web:3a99f659cc35c8ef89ac53',
-    messagingSenderId: '577859373866',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
+    messagingSenderId: 'YOUR_SENDER_ID',
     projectId: 'propgenieapp',
     authDomain: 'propgenieapp.firebaseapp.com',
     storageBucket: 'propgenieapp.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA1g2ReseLNVlNlwBbjp0mpFaLqWG1DwN8',
-    appId: '1:577859373866:android:442f7c06c1a3f2f589ac53',
-    messagingSenderId: '577859373866',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
+    messagingSenderId: 'YOUR_SENDER_ID',
     projectId: 'propgenieapp',
     storageBucket: 'propgenieapp.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCSn0MFlxFak7ps16lxviU6Rdhq-Pdh3Sk',
-    appId: '1:577859373866:ios:7cfefe30e55adcee89ac53',
-    messagingSenderId: '577859373866',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
+    messagingSenderId: 'YOUR_SENDER_ID',
     projectId: 'propgenieapp',
     storageBucket: 'propgenieapp.firebasestorage.app',
     iosClientId: '577859373866-aujfcpvg42dtq9lq2c829laaicoinrpd.apps.googleusercontent.com',
@@ -68,9 +68,9 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCSn0MFlxFak7ps16lxviU6Rdhq-Pdh3Sk',
-    appId: '1:577859373866:ios:7cfefe30e55adcee89ac53',
-    messagingSenderId: '577859373866',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
+    messagingSenderId: 'YOUR_SENDER_ID',
     projectId: 'propgenieapp',
     storageBucket: 'propgenieapp.firebasestorage.app',
     iosClientId: '577859373866-aujfcpvg42dtq9lq2c829laaicoinrpd.apps.googleusercontent.com',
@@ -78,9 +78,9 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBNtCgAxzltn5AqXCHWD1qBPxeYwPujCIM',
-    appId: '1:577859373866:web:887e60f941783ba789ac53',
-    messagingSenderId: '577859373866',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
+    messagingSenderId: 'YOUR_SENDER_ID',
     projectId: 'propgenieapp',
     authDomain: 'propgenieapp.firebaseapp.com',
     storageBucket: 'propgenieapp.firebasestorage.app',
